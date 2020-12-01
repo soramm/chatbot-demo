@@ -1,0 +1,163 @@
+{
+    "init": {
+        "answers": [
+            {"content": "沈んだ気持ちを明るくしたい", "nextId": "happy"},
+            {"content": "ストレスを解消してリラックスしたい", "nextId": "relax"},
+            {"content": "イライラ気分を解消したい", "nextId": "annoying"},
+            {"content": "集中力を高めたい", "nextId": "update"}
+        ],
+        "question": "こんにちは！今日はどんな気分ですか？"
+    },
+  
+    "happy": {
+        "answers": [
+            {"content": "シトラス系", "nextId": "h_sweet_orange"},
+            {"content": "ハーブ系", "nextId": "h_herb"},
+            {"content": "フローラル系", "nextId": "h_flower"}
+
+        ],
+        "question": "好きな香りの種類はどれですか？"
+    },
+
+    "h_sweet_orange": {
+        "answers": [
+            {"content": "スイートオレンジについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは,スイートオレンジです！"
+    },
+    "h_herb": {
+        "answers": [
+            {"content": "ペパーミントについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ペパーミントです！"
+    },
+    "h_flower": {
+        "answers": [
+            {"content": "ネロリについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ネロリです！"
+    },
+   
+
+
+
+    "relax": {
+        "answers": [
+            {"content": "シトラス系", "nextId": "r_sweet_orange"},
+            {"content": "ハーブ系", "nextId": "r_herb"},
+            {"content": "フローラル系", "nextId": "r_flower"},
+            {"content": "助木系", "nextId": "r_wood"}
+
+        ],
+        "question": "好きな香りの種類はどれですか？"
+    },
+    "r_sweet_orange": {
+        "answers": [
+            {"content": "グレープフルーツについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、グレープフルーツです！"
+    },
+    "r_herb": {
+        "answers": [
+            {"content": "バジルについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、バジルです！"
+    },
+    "r_flower": {
+        "answers": [
+            {"content": "ジャスミンについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ジャスミンです！"
+    },
+    "r_wood": {
+        "answers": [
+            {"content": "シダーウッドについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、シダーウッドです！"
+    },
+
+
+
+
+
+    "anooying": {
+        "answers": [
+            {"content": "シトラス系", "nextId": "a_sweet_orange"},
+            {"content": "ハーブ系", "nextId": "a_herb"},
+            {"content": "樹木系", "nextId": "a_flower"}
+
+        ],
+        "question": "好きな香りの種類はどれですか？"
+    },
+   
+    "a_sweet_orange": {
+        "answers": [
+            {"content": "ベルガモットについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ベルガモットです！"
+    },
+    "a_herb": {
+        "answers": [
+            {"content": "シナモンについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、シナモンです！"
+    },
+    "a_flower": {
+        "answers": [
+            {"content": "ヒノキについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ヒノキです！"
+    },
+
+
+
+    "update": {
+        "answers": [
+            {"content": "シトラス系", "nextId": "u_sweet_orange"},
+            {"content": "ハーブ系", "nextId": "u_herb"},
+            {"content": "樹木系", "nextId": "u_flower"}
+
+        ],
+        "question": "好きな香りの種類はどれですか？"
+    },
+   
+    "u_sweet_orange": {
+        "answers": [
+            {"content": "ベルガモットについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香り、ベルガモットです！"
+    },
+    "u_herb": {
+        "answers": [
+            {"content": "ペパーミントについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ペパーミントです！"
+    },
+    "u_flower": {
+        "answers": [
+            {"content": "ティートリーについて詳しく見る", "nextId": "init"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今のあなたにぴったりの香りは、ティートリーです！"
+    }
+
+}
+    
+
+
+
+
+
+
